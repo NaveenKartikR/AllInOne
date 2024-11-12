@@ -56,8 +56,7 @@
               "outputPath": {
                 "base": "./docs",
                 "browser": ""
-              },
-              "tsConfig": "tsconfig.app.json"
+              }
             }
           },
           "defaultConfiguration": "dev-watch"

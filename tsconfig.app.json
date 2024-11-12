@@ -3,7 +3,6 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "baseUrl" : "https://naveenkartikr.github.io/AllInOne/",
     "outDir": "./out-tsc/app",
     "types": []
   },
