@@ -13,7 +13,10 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/all-in-one",
+            "outputPath": {
+                "base": "./docs",
+                "browser": ""
+            },
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -51,6 +54,13 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
+            },
+            "dev-watch": {
+              "outputPath": {
+                "base": "./docs",
+                "browser": ""
+              }
+
             }
           },
           "defaultConfiguration": "production"
