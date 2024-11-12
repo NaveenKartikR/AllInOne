@@ -53,13 +53,11 @@
               "sourceMap": true
             },
             "dev-watch": {
-              "baseHref": "https://naveenkartikr.github.io/hello/",
-              "deployUrl": "https://naveenkartikr.github.io/hello/",
               "outputPath": {
                 "base": "./docs",
                 "browser": ""
-              }
-
+              },
+              "tsConfig": "tsconfig.app.json"
             }
           },
           "defaultConfiguration": "dev-watch"
