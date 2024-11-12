@@ -13,10 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": {
-                "base": "./docs"
-                
-            },
+            "outputPath": "./docs",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -63,7 +60,7 @@
 
             }
           },
-          "defaultConfiguration": "production"
+          "defaultConfiguration": "dev-watch"
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
