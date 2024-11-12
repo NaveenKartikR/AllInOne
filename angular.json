@@ -53,6 +53,8 @@
               "sourceMap": true
             },
             "dev-watch": {
+              "baseHref": "https://naveenkartikr.github.io/AllInOne/",
+              "deployUrl": "https://naveenkartikr.github.io/AllInOne/",
               "outputPath": {
                 "base": "./docs",
                 "browser": ""
